@@ -2,9 +2,6 @@
 provider "aws" {
   access_key = "AKIATGOO7ZQYPNJR7PUV"
   secret_key = "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"
-}
-
-provider "aws" {
   region = "us-west-1"
 }
 resource "aws_instance" "terraform_instance" {
